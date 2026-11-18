@@ -56,6 +56,11 @@ Da trắng hồng + tóc nâu đậm = độ tương phản tự nhiên cao, h�
 
 - Bộ áo hai dây trắng + short trắng + đuôi ngựa cao (ảnh v19-nha-tam): kiểu dáng đúng,
   nhưng MÀU trắng tinh có nguy cơ cháy sáng — nếu Saek giữ bộ này thì đổi sang trắng kem.
+- **Ảnh v19-ho-eo (crop top trắng hở eo) — CHỈ LÀ CHUẨN BODY/EO, KHÔNG PHẢI CHUẨN TRANG PHỤC
+  (đính chính 18/11/2026, Saek nhắc):** ảnh này chỉ dùng để lấy hình dáng eo 58cm + cơ bụng
+  của v19, KHÔNG lấy quần áo từ nó. Quần áo trong video LUÔN lấy từ ảnh Bộ 1 (emerald) hoặc
+  Bộ 3 (burgundy) — không mặc đồ trắng từ ảnh này vào video. Lệnh cho US phải ghi rõ:
+  outfit = ảnh Bộ 1/Bộ 3; waist/abs = ảnh v19-ho-eo (chỉ lấy body, không lấy đồ).
 - Váy trắng hai dây ngắn (v19-vay-trang): kiểu chính cho ảnh chân dung/quảng cáo ngoài nhà.
 - Đồ bơi trắng (v19-do-boi-khoe-uu-diem): chỉ cảnh biển/bể bơi, Saek đã duyệt 18/11/2026.
 - Váy body đen (v19-vay-body-den): đen tuyền mất khối trên camera — đổi sang charcoal/navy
