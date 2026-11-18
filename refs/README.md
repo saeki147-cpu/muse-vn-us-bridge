@@ -12,6 +12,7 @@ bản base64; Muse US tự tải về và giải mã thành file ảnh bằng l�
 | `v19-vay-body-den.jpg.b64` | Ảnh váy body đen tự thiết kế |
 | `v19-ho-eo.jpg.b64` | Ảnh eo/cơ bụng tốt nhất (crop top trắng hở eo) |
 | `v19-nha-tam.jpg.b64` | Ảnh v19 trong nhà tắm, áo thun xám, cầm miếng YUJIAO (ảnh tham chiếu cảnh nhà tắm) |
+| `v19-do-boi-khoe-uu-diem.jpg.b64` | Ảnh MỚI NHẤT (18/11/2026, Saek đã duyệt ❤️): v19 đồ bơi trắng ở bãi biển, khoe rõ vòng 1 106cm rãnh sâu + eo 58cm cơ bụng + chân 122cm — DÙNG LÀM CHUẨN MẶT + BODY cho mọi clip từ nay (chỉ lấy mặt và tỉ lệ body, KHÔNG lấy trang phục bikini vào cảnh nhà tắm) |
 | `yujiao-logo.jpg.b64` | Ảnh thật miếng YUJIAO: logo YUJIAO chữ xám đậm in chéo + ký hiệu YJ (ảnh tham chiếu LOGO) |
 | `yujiao-hinh-dang.jpg.b64` | Ảnh thật miếng YUJIAO: lớp mài xanh ngọc + đế xanh lá nhạt (ảnh tham chiếu HÌNH DÁNG/MÀU) |
 
