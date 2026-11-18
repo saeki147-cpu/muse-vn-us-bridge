@@ -14,8 +14,6 @@ bản base64; Muse US tự tải về và giải mã thành file ảnh bằng l�
 | `v19-nha-tam.jpg.b64` | Ảnh v19 trong nhà tắm, áo thun xám, cầm miếng YUJIAO (ảnh tham chiếu cảnh nhà tắm) |
 | `yujiao-logo.jpg.b64` | Ảnh thật miếng YUJIAO: logo YUJIAO chữ xám đậm in chéo + ký hiệu YJ (ảnh tham chiếu LOGO) |
 | `yujiao-hinh-dang.jpg.b64` | Ảnh thật miếng YUJIAO: lớp mài xanh ngọc + đế xanh lá nhạt (ảnh tham chiếu HÌNH DÁNG/MÀU) |
-| `v19-neo-mat-chinh-dien.jpg.b64` | Bộ neo trung tính: mặt chính diện, biểu cảm trung tính, áo thun xám, ánh sáng nhà tắm (neo mặt chính cho video) |
-| `v19-neo-can-mat.jpg.b64` | Bộ neo trung tính: cận mặt (đầu + vai), biểu cảm trung tính, áo thun xám (neo mặt chính cho video) |
 
 Muse US đọc queue.json sẽ tự lấy ảnh trong thư mục này — không cần ai đính kèm ảnh trong
 chat. Ảnh sản phẩm mới (.b64) cũng đẩy lên đây theo hướng dẫn trong `lenh-runbook.md` mục 4.

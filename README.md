@@ -17,7 +17,7 @@ trực tiếp qua connector GitHub.
 | `video-rules.json` | Quy tắc làm video dạng máy đọc — kèm vào mọi lệnh video. |
 | `kien-thuc-video.md` | Kiến thức làm video bản tiếng Việt (gốc của `video-rules.json`). |
 | `lenh-runbook.md` | Sổ tay viết lệnh cho Ziggy (cách viết lệnh, múi giờ, theo dõi). |
-| `refs/` | 10 ảnh tham chiếu (dạng `.b64` — ảnh nhị phân không đẩy trực tiếp qua connector GitHub được, tải về rồi giải mã bằng `base64 -d`): 5 ảnh khóa v19 + ảnh v19 trong nhà tắm + 2 ảnh thật sản phẩm YUJIAO (logo + hình dáng) + 2 ảnh neo trung tính (mặt chính diện + cận mặt). |
+| `refs/` | 8 ảnh tham chiếu (dạng `.b64` — ảnh nhị phân không đẩy trực tiếp qua connector GitHub được, tải về rồi giải mã bằng `base64 -d`): 5 ảnh khóa v19 + ảnh v19 trong nhà tắm + 2 ảnh thật sản phẩm YUJIAO (logo + hình dáng). |
 
 ## Cách vận hành (tóm tắt)
 
