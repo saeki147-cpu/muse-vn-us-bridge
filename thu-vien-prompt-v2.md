@@ -96,9 +96,26 @@ IDENTITY (frozen, do not change a word): the woman is the v19 actress — oval f
 - Dấu hiệu: 0–10s cô áo thun xám (mặt tròn, già hơn), 10–35s đổi thành cô khác (áo ba lỗ trắng, mặt trẻ hơn). Không ai là v19. Model video giữ mặt kém hơn model ảnh rất nhiều.
 - Sửa: 1 ảnh tham chiếu duy nhất (ảnh v19 đồ bơi khoe ưu điểm, Saek duyệt 18/11/2026, file refs/v19-do-boi-khoe-uu-diem.jpg.b64) làm chuẩn mặt + body cho MỌI clip; US phải đính kèm ảnh này vào MỖI lần tạo clip (không chỉ ghi bằng chữ) và xác nhận đã đính kèm; clip nào mặt trôi thì neo lại từ ảnh gốc, không nối từ clip đã trôi; 1 câu thoại chỉ 1 hình; ghi rõ diễn biến biểu cảm (hơi bực → ngạc nhiên → hài lòng), không để 1 biểu cảm tiêu cực kéo dài cả cảnh.
 
+## Lỗi 16: Tả lại nhân vật trong prompt video làm trôi mặt (mới, 18/11/2026, nghiên cứu giữ mặt)
+- Dấu hiệu: dùng image-to-video (ảnh first frame) nhưng prompt vẫn tả lại mặt/body/nền/ánh sáng — tả lại là lúc mặt và sản phẩm bắt đầu trôi.
+- Sửa: tách 2 phần. (a) Lệnh cho US (không phải prompt video): dùng 1 ảnh hero duy nhất làm first frame cho cả 4 clip + khối IDENTITY v2.2 để chọn ảnh. (b) Prompt video mỗi cảnh CHỈ tả chuyển động (hành động nào, nhanh/chậm ra sao, máy quay thế nào), không tả lại mặt/body. Dùng đúng 1 file ảnh giống hệt nhau (byte-identical) cho mọi clip — file lưu lại/crop lại dù cùng nội dung cũng có thể làm trôi mặt.
+
+## Lỗi 17: Không có ảnh góc nghiêng/cận mặt khi quay đầu (mới, 18/11/2026, nghiên cứu giữ mặt)
+- Dấu hiệu: chỉ 1 ảnh chính diện, model phải đoán khi diễn viên quay đầu → mặt trôi.
+- Sửa: bộ neo chuẩn là front + 3/4 + profile (chính diện + nghiêng 3/4 + nghiêng hẳn). Hiện repo mới có ảnh chính diện/toàn thân; cần bổ sung ảnh nghiêng/cận mặt v19 khi có dịp tạo ảnh mới (không bắt buộc cho bản làm lại Ngày 1, nhưng là nâng cấp lớn nhất cho các video sau).
+
+## Checklist kiểm tra trước khi đăng — 4 lỗi chặn cứng (mới, 18/11/2026, nghiên cứu)
+1 lỗi là loại clip, không đăng: (1) tay/ngón sai, (2) chữ/logo sai, (3) mặt đổi giữa khung đầu và khung cuối clip, (4) tuyên bố không có trong kịch bản đã duyệt.
+Cách kiểm tra: đặt mặt trong clip CẠNH ảnh gốc đã duyệt mà so, không dựa vào trí nhớ (hình dạng mặt, khoảng cách mắt, mũi, miệng, chân tóc); nghe toàn bộ bằng tai nghe; xem cả có tiếng và không tiếng trên điện thoại; kiểm tra crop 9:16 (sản phẩm, chữ, CTA không bị cắt).
+Quy tắc quyết định: lỗi cấu trúc (giải phẫu, mặt trôi, nhấp nháy) → làm lại; lỗi nhỏ cô lập (chữ, màu) → sửa ở hậu kỳ; lỗi chỉ 1–2 giây → cắt bỏ nếu phần còn lại sống được.
+
+## Công thức hook 3 giây (mới, 18/11/2026, nghiên cứu, phân tích 10.000+ video e-commerce Q1–Q2/2026)
+Người xem quyết định trong 1,7 giây đầu. 0–0,8s: gây ngắt quãng thị giác (cận cảnh vấn đề/sản phẩm). 0,8–2,0s: neo cụ thể (1 con số, thời gian, hoặc tuyên bố cụ thể). 2,0–3,0s: mở vòng lặp (câu hỏi chưa có đáp án). Hook hứa gì thì 6 giây tiếp theo phải trả đúng cái đó. 85% xem không bật tiếng nên phải xem được khi tắt tiếng (phụ đề/chữ trên hình).
+
 ## Phiên bản
 - v1.0 — 15/11/2026: 4 lỗi tay, mắt, mặt, chuyển động.
 - v2.0 — 15/11/2026 19:14: thêm 6 lỗi da nhựa, mắt chết, miệng, trọng lượng, ánh sáng, tay nâng cao + công thức chuẩn + checklist test 10 giây.
 - v2.1 — 17/11/2026 06:49: thêm Lỗi 11 (logo/chữ trên sản phẩm vẽ sai — đưa ảnh thật làm mẫu, sai thì sửa ở hậu kỳ, không bắt Muse làm lại mãi).
 - v2.2 — 18/11/2026: thêm Lỗi 12 (body v19 mất vòng 1 — áo phải FITTED, khung hình giữ thân) + khối IDENTITY v2.2 + checklist tiết kiệm token (tối đa 2 lần tạo/cảnh, ngân sách tuần US).
 - v2.3 — 18/11/2026: thêm Lỗi 13 (tiết tấu chậm như quay chậm), Lỗi 14 (khung split trước/sau không hiện), Lỗi 15 (hai mặt trong 1 video) — đúc kết từ video YUJIAO Ngày 1.
+- v2.4 — 18/11/2026: thêm Lỗi 16 (tả lại nhân vật trong prompt làm trôi mặt — tách lệnh cho US và prompt video), Lỗi 17 (thiếu ảnh góc nghiêng/cận mặt), checklist 4 lỗi chặn cứng + công thức hook 3 giây — từ nghiên cứu giữ mặt + tiết tấu quảng cáo 18/11/2026.
