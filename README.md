@@ -18,6 +18,11 @@ trực tiếp qua connector GitHub.
 | `kien-thuc-video.md` | Kiến thức làm video bản tiếng Việt (gốc của `video-rules.json`). |
 | `lenh-runbook.md` | Sổ tay viết lệnh cho Ziggy (cách viết lệnh, múi giờ, theo dõi). |
 | `refs/` | 8 ảnh tham chiếu (dạng `.b64` — ảnh nhị phân không đẩy trực tiếp qua connector GitHub được, tải về rồi giải mã bằng `base64 -d`): 5 ảnh khóa v19 + ảnh v19 trong nhà tắm + 2 ảnh thật sản phẩm YUJIAO (logo + hình dáng). |
+| `he-thong-tu-dong-video-truyen.md` | Hệ thống làm video tự động 6 bước + 5 mẫu truyện (ngách Gia dụng). |
+| `thu-vien-prompt-v2.md` | Thư viện Prompt v2.1: 11 lỗi làm video nhìn giả + cách sửa, prompt mẫu, negative list. |
+| `khung-chat-luong-video-ai.md` | Khung chất lượng video AI: tối đa 1 video/ngày, cửa kiểm tra từng bước, cửa chống spam, cách đo chất lượng. |
+| `ho-so-dien-vien-v19-khoa.md` | Hồ sơ đầy đủ diễn viên v19 (số đo, biểu cảm, tóc, ngực, eo, chân, trang phục, máy/ánh sáng, prompt mẫu, checklist). |
+| `yujiao-ngay1-ban-chot-2026-11-18.md` | Gói bản chốt YUJIAO Ngày 1: kiểm chứng 5 câu hỏi chọn sản phẩm, prompt chi tiết, checklist rà soát. |
 
 ## Cách vận hành (tóm tắt)
 
