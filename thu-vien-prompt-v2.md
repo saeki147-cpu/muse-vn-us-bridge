@@ -112,6 +112,11 @@ Quy tắc quyết định: lỗi cấu trúc (giải phẫu, mặt trôi, nhấp
 ## Công thức hook 3 giây (mới, 18/11/2026, nghiên cứu, phân tích 10.000+ video e-commerce Q1–Q2/2026)
 Người xem quyết định trong 1,7 giây đầu. 0–0,8s: gây ngắt quãng thị giác (cận cảnh vấn đề/sản phẩm). 0,8–2,0s: neo cụ thể (1 con số, thời gian, hoặc tuyên bố cụ thể). 2,0–3,0s: mở vòng lặp (câu hỏi chưa có đáp án). Hook hứa gì thì 6 giây tiếp theo phải trả đúng cái đó. 85% xem không bật tiếng nên phải xem được khi tắt tiếng (phụ đề/chữ trên hình).
 
+## Lỗi 18: Quần áo + đầu tóc đổi kiểu giữa các clip (mới, 18/11/2026, Saek yêu cầu khóa 1 kiểu)
+- Dấu hiệu: video Ngày 1 áo đổi 3 lần (thun xám → ba lỗ trắng + short → thun trắng); tóc đổi kiểu; khối IDENTITY v2.2 ghi "áo thun xám FITTED" nhưng ảnh tham chiếu v19-nha-tam thật là áo hai dây trắng + short trắng + đuôi ngựa cao — chữ và ảnh không khớp nhau.
+- Sửa: khóa 1 kiểu duy nhất cho mọi cảnh ở nhà (file thoi-trang-v19-khoa.md): áo hai dây trắng ôm sát + quần short trắng + tóc nâu buộc đuôi ngựa cao + makeup nhẹ môi hồng nhạt. Bỏ áo thun xám v2.2. Mô tả thời trang lặp nguyên văn mọi lần: "white fitted spaghetti-strap camisole and white shorts, brown hair in a high ponytail, light natural makeup, light pink lips". Ảnh tham chiếu thời trang refs/v19-nha-tam.jpg.b64 làm first frame cho mọi clip cảnh ở nhà. Áo/quần/tóc khác ảnh tham chiếu là LỖI CHẶN CỨNG, làm lại clip.
+- Tiết kiệm token: KHÔNG làm clip test riêng để kiểm tra thời trang (Saek 18/11/2026: không có dư token để test). Thời trang chỉ kiểm tra trong video thật, bằng ảnh tham chiếu + prompt khóa.
+
 ## Phiên bản
 - v1.0 — 15/11/2026: 4 lỗi tay, mắt, mặt, chuyển động.
 - v2.0 — 15/11/2026 19:14: thêm 6 lỗi da nhựa, mắt chết, miệng, trọng lượng, ánh sáng, tay nâng cao + công thức chuẩn + checklist test 10 giây.
@@ -119,3 +124,4 @@ Người xem quyết định trong 1,7 giây đầu. 0–0,8s: gây ngắt quãn
 - v2.2 — 18/11/2026: thêm Lỗi 12 (body v19 mất vòng 1 — áo phải FITTED, khung hình giữ thân) + khối IDENTITY v2.2 + checklist tiết kiệm token (tối đa 2 lần tạo/cảnh, ngân sách tuần US).
 - v2.3 — 18/11/2026: thêm Lỗi 13 (tiết tấu chậm như quay chậm), Lỗi 14 (khung split trước/sau không hiện), Lỗi 15 (hai mặt trong 1 video) — đúc kết từ video YUJIAO Ngày 1.
 - v2.4 — 18/11/2026: thêm Lỗi 16 (tả lại nhân vật trong prompt làm trôi mặt — tách lệnh cho US và prompt video), Lỗi 17 (thiếu ảnh góc nghiêng/cận mặt), checklist 4 lỗi chặn cứng + công thức hook 3 giây — từ nghiên cứu giữ mặt + tiết tấu quảng cáo 18/11/2026.
+- v2.5 — 18/11/2026: thêm Lỗi 18 (quần áo + đầu tóc đổi kiểu) — khóa 1 kiểu duy nhất cho cảnh ở nhà (áo hai dây trắng + short trắng + đuôi ngựa cao), bỏ áo thun xám v2.2 vì không khớp ảnh tham chiếu; không làm clip test riêng để kiểm tra thời trang (không dư token video).
