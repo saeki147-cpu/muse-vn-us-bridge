@@ -53,12 +53,20 @@ thấy rõ điểm nhấn v19 mà vẫn kín đáo, sang trọng.
 
 ## 3. QUY TẮC CHUNG — áp dụng mọi bộ, mọi clip
 
-- Màu trơn, KHÔNG họa tiết nhỏ/sọc mảnh/caro (moiré), KHÔNG vải bóng (satin/lụa/sequin),
-  KHÔNG logo/chữ lớn, KHÔNG trắng tinh (dùng kem/off-white — trắng tinh cháy sáng),
-  KHÔNG đen tuyền (dùng charcoal/navy — đen tuyền mất khối), KHÔNG màu quá gần màu da,
-  KHÔNG neon/chói.
-- Chất liệu ưu tiên: bamboo viscose, modal, cotton pha modal, ribbed knit, len mịn, jersey/crepe.
-  Vải mờ (matte) luôn. Vải ít nhăn.
+- Màu trơn, KHÔNG họa tiết nhỏ/sọc mảnh/caro (moiré), KHÔNG vải xuyên thấu,
+  KHÔNG vải quá bóng loáng (sequin, satin bóng), KHÔNG logo/chữ lớn, KHÔNG trắng tinh
+  (dùng kem/off-white — trắng tinh cháy sáng), KHÔNG đen tuyền (dùng charcoal/navy —
+  đen tuyền mất khối), KHÔNG màu quá gần màu da, KHÔNG neon/chói.
+  (Lụa mờ, chiffon kín, vải mỏng nhẹ ĐƯỢC — chỉ cần không xuyên thấu, xem mục chất liệu.)
+- Chất liệu (Saek đính chính 18/11/2026 — KHÔNG cứng nhắc về độ dày): quy tắc duy nhất là
+  VẢI PHẢI KÍN ĐÁO, KHÔNG XUYÊN THẤU. Vải mỏng nhẹ HOÀN TOÀN ĐƯỢC — lụa, chiffon, voile,
+  linen, modal, cotton mỏng — miễn là không nhìn xuyên qua. Vải mỏng nhẹ còn tốt hơn vì
+  rủ theo người, ôm theo vòng 1 và eo, tôn dáng hơn vải dày cứng. Lụa được dùng, chỉ cần
+  lụa mờ/không quá bóng loáng (bóng quá mới cháy sáng trên camera, lụa mờ thì không sao).
+  Vải dày (len, ribbed knit, jersey) cũng được. CẤM: vải xuyên thấu, vải quá bóng (sequin,
+  satin bóng loáng), vải quá nhăn.
+- Vải ưu tiên: lụa mờ, chiffon kín, modal, bamboo viscose, cotton pha modal, ribbed knit,
+  len mịn, jersey/crepe — mỏng hay dày đều được, miễn không xuyên thấu.
 - Màu hợp da trắng hồng + tóc nâu: jewel tone (sapphire, emerald, burgundy, plum, turquoise),
   tông đất ấm (terracotta, caramel, bronze), trung tính nhẹ (ivory, champagne, kem).
 - Phụ kiện cố định: dây chuyền vàng mảnh ngắn + khuyên tai stud nhỏ. Không vòng tay, không khuyên lủng lẳng.
