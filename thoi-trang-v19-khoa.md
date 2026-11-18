@@ -6,6 +6,12 @@ mặc đồ đó. Ví dụ: cảnh ở Bắc Cực thì không thể mặc áo h
 Trong 1 video: 1 bộ + 1 kiểu tóc, không đổi giữa chừng. Khác video/khác cảnh thì đổi bộ
 cho hợp nội dung, mỗi bộ có ảnh tham chiếu riêng làm first frame.
 
+**ĐIỂM NHẤN BẮT BUỘC (Saek 18/11/2026):** Dù mặc đồ gì, điểm nhấn của v19 là VÒNG 1 LỚN
+(106cm) — PHẢI THỂ HIỆN ĐƯỢC. Mọi bộ đồ đều phải ôm theo vòng 1 và eo (áo ôm sát, cổ V,
+wrap, thắt lưng/chiết eo) để thấy rõ vòng 1 qua vải. KHÔNG BAO GIỜ mặc đồ rộng/thùng thình
+qua ngực (che mất vòng 1). Bộ đồ nào che mất vòng 1 là LỖI CHẶN CỨNG. Cách thể hiện là
+qua ĐỘ ÔM của vải, không phải hở da.
+
 ## 1. Cái gì KHÓA, cái gì TÙY BIẾN
 
 - **KHÓA CỨNG (không đổi bao giờ):** mặt v19, số đo (106-58-90, cao 190cm, chân 122cm),
