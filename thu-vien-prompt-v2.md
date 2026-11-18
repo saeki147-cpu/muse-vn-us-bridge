@@ -84,8 +84,21 @@ IDENTITY (frozen, do not change a word): the woman is the v19 actress — oval f
 - Tối đa 2 lần tạo/cảnh (1 chính + 1 làm lại). Lần 2 vẫn lỗi thì dùng bản tốt hơn, sửa ở hậu kỳ, KHÔNG tạo lần 3.
 - Ngân sách tuần tài khoản US (18/11/2026): đã dùng 13%, đặt lại 25/11, còn 87% ≈ 33 clip (mỗi clip ~2,6%). 1 video/ngày = 4 clip → 6 ngày còn lại (19–24/11) hết 24 clip, dư ~9 clip làm lại. Không làm video ngoài kế hoạch 1/ngày.
 
+## Lỗi 13: Tiết tấu chậm như quay chậm (mới, 18/11/2026, Saek nhận xét video Ngày 1)
+- Dấu hiệu: động tác chà chậm lặp lại 7–10 giây/clip; chuyển cảnh hòa trộn 0,5 giây làm ì; hook 3 giây đầu quay chậm không giật được chú ý; năng lượng phẳng cả 35 giây.
+- Sửa: prompt ghi rõ tốc độ — "quick, energetic strokes" (chà nhanh, dứt khoát), mỗi động tác 2–3 giây, 1 clip 10 giây phải có 2–3 nhịp động tác; chuyển cảnh cắt cứng (hard cut), hòa trộn tối đa 0,2 giây; hook: 1 giây đầu là vấn đề (kính ố rõ), giây 2–3 mới đưa sản phẩm vào; nhịp nhanh ở demo, chậm lại ở CTA để người xem kịp đọc chữ.
+
+## Lỗi 14: Khung split trước/sau không hiện (mới, 18/11/2026, video Ngày 1)
+- Dấu hiệu: câu thoại hứa "một bên còn ố, một bên trong veo" nhưng video chỉ cho kính sạch dần, không có khung chia đôi nào. Prompt có ghi "split view" nhưng model không vẽ; chuyển động chà phá vỡ khung chia đôi.
+- Sửa: cảnh split = TOÀN BỘ cảnh là 1 khung chia đôi tĩnh — nửa trái còn ố trắng, nửa phải trong veo, miếng chà nằm đúng ranh giới, KHÔNG chà (không chuyển động). Muốn chà thì chà ở cảnh khác. Một cảnh chỉ được hứa 1 hình duy nhất, và hình đó phải là toàn bộ cảnh.
+
+## Lỗi 15: Hai mặt khác nhau trong 1 video (mới, 18/11/2026, video Ngày 1)
+- Dấu hiệu: 0–10s cô áo thun xám (mặt tròn, già hơn), 10–35s đổi thành cô khác (áo ba lỗ trắng, mặt trẻ hơn). Không ai là v19. Model video giữ mặt kém hơn model ảnh rất nhiều.
+- Sửa: 1 ảnh tham chiếu duy nhất (ảnh v19 đồ bơi khoe ưu điểm, Saek duyệt 18/11/2026, file refs/v19-do-boi-khoe-uu-diem.jpg.b64) làm chuẩn mặt + body cho MỌI clip; US phải đính kèm ảnh này vào MỖI lần tạo clip (không chỉ ghi bằng chữ) và xác nhận đã đính kèm; clip nào mặt trôi thì neo lại từ ảnh gốc, không nối từ clip đã trôi; 1 câu thoại chỉ 1 hình; ghi rõ diễn biến biểu cảm (hơi bực → ngạc nhiên → hài lòng), không để 1 biểu cảm tiêu cực kéo dài cả cảnh.
+
 ## Phiên bản
 - v1.0 — 15/11/2026: 4 lỗi tay, mắt, mặt, chuyển động.
 - v2.0 — 15/11/2026 19:14: thêm 6 lỗi da nhựa, mắt chết, miệng, trọng lượng, ánh sáng, tay nâng cao + công thức chuẩn + checklist test 10 giây.
 - v2.1 — 17/11/2026 06:49: thêm Lỗi 11 (logo/chữ trên sản phẩm vẽ sai — đưa ảnh thật làm mẫu, sai thì sửa ở hậu kỳ, không bắt Muse làm lại mãi).
 - v2.2 — 18/11/2026: thêm Lỗi 12 (body v19 mất vòng 1 — áo phải FITTED, khung hình giữ thân) + khối IDENTITY v2.2 + checklist tiết kiệm token (tối đa 2 lần tạo/cảnh, ngân sách tuần US).
+- v2.3 — 18/11/2026: thêm Lỗi 13 (tiết tấu chậm như quay chậm), Lỗi 14 (khung split trước/sau không hiện), Lỗi 15 (hai mặt trong 1 video) — đúc kết từ video YUJIAO Ngày 1.
