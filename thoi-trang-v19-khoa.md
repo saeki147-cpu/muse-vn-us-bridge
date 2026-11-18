@@ -14,7 +14,20 @@ cho hợp nội dung, mỗi bộ có ảnh tham chiếu riêng làm first frame.
 - **KHÔNG BAO GIỜ ĐỔI BỪA:** đổi đồ phải có lý do nội dung (cảnh khác, trời khác, việc khác),
   không đổi chỉ vì muốn đổi.
 
-## 2. BẢNG TÙY BIẾN — cảnh nào mặc gì
+## 2. BẢNG TÙY BIẾN — cảnh nào mặc gì, tóc gì
+
+**Tóc cũng tùy biến như đồ (Saek 18/11/2026):** cần cột gọn thì cột, dự tiệc thì làm các
+kiểu — không rập khuôn 1 kiểu tóc cho mọi cảnh. Mặt + body khóa, tóc thay đổi theo việc.
+
+| Tình huống | Kiểu tóc | Vì sao |
+|---|---|---|
+| **Dọn dẹp / chà rửa (cúi, nước bắn)** | Đuôi ngựa cao sleek / đuôi ngựa tết | Gọn nhất, tóc không chạm mặt, không ướt, không rơi vào sản phẩm |
+| **Nấu ăn** | Búi kẹp càng cua / đuôi ngựa thấp / tết | Gọn khỏi mặt khi nấu, không rơi vào đồ ăn |
+| **Giới thiệu sản phẩm / nói chuyện** | Đuôi ngựa thấp sóng / nửa buộc sóng / xõa sóng nhẹ | Mềm mại trước camera, vẫn gọn |
+| **Dự tiệc / sự kiện** | Búi thấp + lọn xoăn ôm mặt / tóc xõa uốn sóng / búi cao sang | Sang, hợp váy dài, tóc là điểm nhấn |
+| **Trời lạnh / Bắc Cực** | Tết thấp / đuôi ngựa thấp (gọn trong mũ/áo khoác) | Không bay, không rối trong đồ lạnh |
+| **Biển / bể bơi** | Búi cao (gọn, không ướt mặt) | Tóc không ướt, không dính mặt |
+| **Ngoài trời nắng / gió** | Đuôi ngựa cao / tết (gọn, không bay) | Tóc không bay che mặt khi gió |
 
 | Bối cảnh | Quần áo | Tóc | Vì sao |
 |---|---|---|---|
