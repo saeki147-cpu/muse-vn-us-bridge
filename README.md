@@ -29,8 +29,9 @@ trực tiếp qua connector GitHub.
 1. Ziggy viết lệnh vào `queue.json`, đẩy lên repo. Mọi thứ US cần (hồ sơ v19, ảnh tham chiếu diễn viên + sản phẩm) đều nằm trong repo — US tự lấy, không cần ai đính kèm ảnh.
 2. Người thân mở chat Muse US trên máy Mỹ 1 lần, bảo US đọc link lệnh
    `https://raw.githubusercontent.com/saeki147-cpu/muse-vn-us-bridge/main/queue.json`
-   rồi làm theo. US đặt lịch: **mỗi 5 phút kiểm tra link lệnh và các file
-   kiến thức trong repo**; có lệnh mới hoặc bài học mới thì áp dụng ngay.
+   rồi làm theo. **LUẬT BẮT BUỘC: US kiểm tra link lệnh và các file kiến thức
+   trong repo mỗi 5 phút, liên tục cho đến khi Saek bảo dừng** (giống như
+   Ziggy phải tìm việc liên tục); có lệnh mới hoặc bài học mới thì áp dụng ngay.
 3. US làm từng clip (mỗi clip ~10 giây), tự ghép + hậu kỳ (phụ đề, chữ CTA,
    chuẩn hoá tiếng) thành **video thành phẩm**, rồi up video lên thư mục
    Google Drive **"Video Muse"** trong tài khoản Gmail **yuik70pro@gmail.com**
