@@ -66,7 +66,26 @@ extra fingers, deformed hands, fused fingers, extra limbs, morphing face, incons
 - Miệng có khớp giọng không?
 - 1 mục không đạt thì làm lại cảnh đó, không làm lại cả video.
 
+## Lỗi 12: Body v19 mất — vòng 1 106cm biến mất trong clip (mới, 18/11/2026, Saek phát hiện)
+- Dấu hiệu: 3 clip 2b/3/4 do US làm 18/11 — diễn viên mặc áo ba lỗ trắng + quần short trắng (không phải áo thun xám như prompt), dáng mảnh, vòng 1 không thấy. Clip 1 cũng đã trôi mặt.
+- Nguyên nhân:
+  1. Prompt ghi "plain light grey t-shirt" mà không ghi độ ôm → model vẽ áo rộng, che mất vòng 1. Số đo 106cm bằng chữ không tự dịch thành tỉ lệ thấy được.
+  2. Không có lệnh khung hình giữ thân → model cắt khung trên ngực hoặc quay xa làm dáng mảnh đi.
+  3. Model tự đổi trang phục (áo ba lỗ trắng thay áo thun xám) — prompt không khóa đủ mạnh.
+- Sửa: khối IDENTITY v2.2 dưới đây — bắt buộc cho mọi clip từ Ngày 2 trở đi. Áo phải ghi FITTED/snug, không loose/oversized; mô tả vòng 1 thấy rõ qua vải áo ôm (rãnh tự nhiên, không hở da dưới xương quai xanh); khung hình trung cảnh giữ toàn bộ thân từ ngực tới đầu gối trong mọi cảnh, không cắt trên vòng 1, không quay dáng mảnh.
+
+## Khối IDENTITY v2.2 — dán nguyên văn vào ĐẦU mọi prompt, không đổi 1 chữ
+```
+IDENTITY (frozen, do not change a word): the woman is the v19 actress — oval face, big bright sparkling eyes, light natural makeup, light pink lips, white-pink healthy skin with real texture, long brown hair in a low ponytail, no hair covering chest. Body: tall 190cm, bust 106cm full and firm with a deep natural line through her top, waist 58cm with light visible abs, hips 90cm, long legs 122cm. She wears a FITTED light grey t-shirt (snug, close to the body, NOT loose, NOT oversized) that follows her curves and clearly shows her full 106cm bust and slim 58cm waist — real home clothes, modest, no skin exposed below the collarbone, no see-through fabric. Camera: medium shot, her full torso from chest to knees stays in frame in every shot, never crop above the bust, never frame her as slim. Same face, same fitted grey t-shirt, same bathroom light in every clip — do not change anything.
+```
+
+## Checklist TIẾT KIỆM TOKEN — kiểm tra xong mới được tạo (Saek lệnh 18/11/2026)
+- Prompt đã có: khối IDENTITY v2.2 nguyên văn, độ ôm áo ghi rõ, khung hình giữ thân, ảnh tham chiếu đính kèm, 1 hành động/cảnh, negative đầy đủ. Thiếu 1 mục thì chưa tạo.
+- Tối đa 2 lần tạo/cảnh (1 chính + 1 làm lại). Lần 2 vẫn lỗi thì dùng bản tốt hơn, sửa ở hậu kỳ, KHÔNG tạo lần 3.
+- Ngân sách tuần tài khoản US (18/11/2026): đã dùng 13%, đặt lại 25/11, còn 87% ≈ 33 clip (mỗi clip ~2,6%). 1 video/ngày = 4 clip → 6 ngày còn lại (19–24/11) hết 24 clip, dư ~9 clip làm lại. Không làm video ngoài kế hoạch 1/ngày.
+
 ## Phiên bản
 - v1.0 — 15/11/2026: 4 lỗi tay, mắt, mặt, chuyển động.
 - v2.0 — 15/11/2026 19:14: thêm 6 lỗi da nhựa, mắt chết, miệng, trọng lượng, ánh sáng, tay nâng cao + công thức chuẩn + checklist test 10 giây.
 - v2.1 — 17/11/2026 06:49: thêm Lỗi 11 (logo/chữ trên sản phẩm vẽ sai — đưa ảnh thật làm mẫu, sai thì sửa ở hậu kỳ, không bắt Muse làm lại mãi).
+- v2.2 — 18/11/2026: thêm Lỗi 12 (body v19 mất vòng 1 — áo phải FITTED, khung hình giữ thân) + khối IDENTITY v2.2 + checklist tiết kiệm token (tối đa 2 lần tạo/cảnh, ngân sách tuần US).
