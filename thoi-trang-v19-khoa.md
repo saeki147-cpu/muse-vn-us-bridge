@@ -44,7 +44,12 @@ kiểu — không rập khuôn 1 kiểu tóc cho mọi cảnh. Mặt + body khó
 | **Bắc Cực / trời tuyết / lạnh** | Áo parka dày + áo len cổ lọ + quần dài ấm + mũ len/găng tay — màu jewel tone (emerald/sapphire/burgundy) để nổi trên nền tuyết trắng | Tóc đuôi ngựa thấp hoặc tết (gọn trong mũ/áo khoác, không bay) | Ấm, hợp khí hậu; màu đậm nổi trên tuyết; tóc gọn trong đồ lạnh |
 | **Mùa đông / trời lạnh (trong nhà)** | Áo len mịn cổ tròn + quần dài ống rộng + tất ấm — màu burgundy/plum/navy | Đuôi ngựa thấp / búi thấp | Ấm, vẫn tôn dáng, vải len mịn an toàn camera |
 | **Ngoài trời nắng / dã ngoại** | Áo thun ôm + quần short + mũ rộng vành / kính râm — màu terracotta/sage | Đuôi ngựa cao / tết (gọn, không bay) | Mát, chống nắng, tóc gọn khi gió |
-| **Trang trọng / sự kiện** | Váy trắng hai dây ngắn (v19-vay-trang) hoặc váy body (charcoal/navy, không đen tuyền) | Tóc xõa sóng / nửa buộc (chỉ đứng nói, không vận động) | Trình bày, không làm việc nhà |
+| **Trang trọng / sự kiện** | Váy wrap sapphire cổ V, tay dài, thắt eo, ôm theo vòng 1 (ảnh v19-du-tiec-vay-wrap) — KHÔNG dùng váy suông | Búi thấp + lọn xoăn ôm mặt / tóc xõa uốn sóng | Trình bày, không làm việc nhà |
+
+**ẢNH BỊ LOẠI (18/11/2026, Saek chỉ ra):** ảnh v19 dự tiệc váy navy suông (v19-du-tiec-toc-bui)
+che mất vòng 1 — váy suông thẳng, không ôm theo ngực. KHÔNG dùng làm ảnh tham chiếu.
+Váy dự tiệc đúng là váy wrap (ảnh v19-du-tiec-vay-wrap): cổ V + thắt eo + ôm theo vòng 1,
+thấy rõ điểm nhấn v19 mà vẫn kín đáo, sang trọng.
 
 ## 3. QUY TẮC CHUNG — áp dụng mọi bộ, mọi clip
 
