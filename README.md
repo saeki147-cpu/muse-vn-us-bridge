@@ -32,8 +32,10 @@ trực tiếp qua connector GitHub.
    rồi làm theo. US đặt lịch: **mỗi 5 phút kiểm tra link lệnh và các file
    kiến thức trong repo**; có lệnh mới hoặc bài học mới thì áp dụng ngay.
 3. US làm từng clip (mỗi clip ~10 giây), tự ghép + hậu kỳ (phụ đề, chữ CTA,
-   chuẩn hoá tiếng) thành **video thành phẩm**, người thân tải về, gửi qua
-   Telegram cho Ziggy.
+   chuẩn hoá tiếng) thành **video thành phẩm**, rồi up video lên thư mục
+   Google Drive **"Video Muse"** trong tài khoản Gmail **yuik70pro@gmail.com**
+   (nối Drive bằng Gmail này nếu chưa nối) — đây là nơi giao video chính,
+   Ziggy tải về từ đó. Telegram chỉ là dự phòng (người thân tải về gửi).
 4. Ziggy kiểm tra cuối video thành phẩm rồi giao Saek duyệt. Saek chỉ xem
    video thành phẩm, không duyệt từng clip.
 5. Ziggy đẩy bài học mới lên repo, US thấy trong vòng 5 phút sau khi Ziggy
